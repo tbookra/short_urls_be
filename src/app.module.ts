@@ -6,7 +6,7 @@ import { MongooseModule } from '@nestjs/mongoose';
   imports: [
     CreateUrlModule,
     MongooseModule.forRoot('mongodb://127.0.0.1/short_urls'),
-    CreateUrlModule,
+   
   ],
   controllers: [],
   providers: [],
